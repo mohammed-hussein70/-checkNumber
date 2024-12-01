@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 15px;
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+}
+table tr:nth-child(even) {
+  background-color: #bbb;
+}
+.myInput {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  width: 50%;
+}
+.check {
+  padding: 5px;
+}
