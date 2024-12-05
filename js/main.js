@@ -9,9 +9,6 @@ if (localStorage.getItem("Numbers")) {
 }
 
 // إنشاء عنصر جديد عند النقر على الزر
-document.querySelector(".check").addEventListener("click", () => {
-  createElement(inputField.value.trim());
-});
 
 function createElement(value) {
   if (value === "" || isNaN(value)) {
@@ -75,3 +72,7 @@ function populateTable(data) {
     addRowToTable(number);
   });
 }
+
+document.querySelector(".check").addEventListener("click", () => {
+  createElement(inputField.value.trim());
+});
